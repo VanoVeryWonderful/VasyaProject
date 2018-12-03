@@ -44,16 +44,70 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	border: 1px solid;
 	border-color: grey;
 	box-shadow: 0 0 15px black;
+	border-radius: 5px;
 }
+
 .fa-camera{
 	position: relative;
 	right: 12px;
 	font-size: 20px;
 }
+
 .fa-bars{
 	position: relative;
 	color: grey;
 }
+
 .btn-menu:hover{
 	background: #f1dcdc;
+}
+
+.container_one {
+	text-align: center;
+	
+}
+
+.section_one {
+	
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+.flex_two {
+	display: flex;
+	justify-content: center;
+}
+
+.section_two {
+	
+	width: 600px;
+	height: 90px;
+	margin: 0;
+	font-size: 21px;
+	text-align: center;
+	color:
+}
+
+.btn_o {
+	height: 38px;
+	width: 155px;
+	margin-top: 8px;
+	border: 0 ;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.btn_o:hover{
+	background: #f1dcdc;
+	color: #000;
+}
+
+.btn_one {
+	background-color: #007bff;
+}
+
+.btn_two {
+	background-color: #6c757d;
 }
