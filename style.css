@@ -1,6 +1,7 @@
 body {
 	background-image: url("img/фон-для-сайта.jpg");
 	margin: 0;
+	display: block;
 }
 
 .menu *{
@@ -64,6 +65,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .container_one {
 	text-align: center;
+	margin-bottom: 144px;
 	
 }
 
@@ -110,4 +112,103 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .btn_two {
 	background-color: #6c757d;
+}
+
+.card_all {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+
+}
+
+.card_one_all {
+	width: 348px;
+	background-color: #fff;
+	border-radius: 5px; 
+	margin-right: 35px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px grey;
+}
+
+.img_th {
+	border-radius: 5px 5px 0 0;
+}
+
+.card_text {
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: #212529;
+}
+
+.btn_card_v {
+	height: 31px;
+	width: 47px;
+	margin-left: 20px;
+	border: 1px solid #6c757d;
+	border-radius: 3px 0 0 3px;
+}
+
+.btn_card_e {
+	width: 41px;	
+	height: 31px;
+	margin-right: 170px;
+	border-left: none;
+	border-top: 1px solid #6c757d;
+	border-bottom: 1px solid #6c757d;
+	border-right: 1px solid #6c757d;
+	border-radius: 0 3px 3px 0; 	
+}
+
+.btn_card {
+	cursor: pointer;
+	background-color: #fff;
+	margin-bottom: 20px;
+	color: #6c757d;
+}
+
+.btn_card:hover{
+	background: #55595c;
+	color: #fff;
+}
+
+.min {
+    color: #6c757d;
+    margin-bottom: 15px;
+
+}
+
+.btn_mins {
+	display: inline-flex;
+	align-items: center;
+}
+.card_body {
+	margin-top: 0;
+	 
+}
+.card_text {
+	margin-top:
+	background-color: #fff;
+}
+
+.foot_one {
+	margin-top: 90px;
+	color: #6c757d;
+	font-size: 18px;
+}
+
+.foot_all {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row;
+	
+}
+
+.foot_back{
+	text-decoration: none;
+}
+.foot_back:hover {
+	text-decoration: underline;
+	color: #6f42c1;
 }
