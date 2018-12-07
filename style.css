@@ -1,7 +1,7 @@
 body {
 	background-image: url("img/фон-для-сайта.jpg");
 	margin: 0;
-	display: block;
+
 }
 
 .menu *{
@@ -81,13 +81,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 
 .section_two {
-	
 	width: 600px;
 	height: 90px;
 	margin: 0;
 	font-size: 21px;
 	text-align: center;
-	color:
 }
 
 .btn_o {
@@ -115,18 +113,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 
 .card_all {
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
-
+	display: grid;
+	 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	 	grid-gap: 20px;
+	 	justify-items: center;
+	 	padding: 0 20% 0 20%;
 }
 
+.grid_one img {
+	width: 100%;
+}
 .card_one_all {
-	width: 348px;
 	background-color: #fff;
 	border-radius: 5px; 
-	margin-right: 35px;
-	margin-bottom: 30px;
 	box-shadow: 0 0 10px grey;
 }
 
@@ -176,17 +175,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .min {
     color: #6c757d;
     margin-bottom: 15px;
-
 }
 
 .btn_mins {
 	display: inline-flex;
 	align-items: center;
 }
+
 .card_body {
 	margin-top: 0;
-	 
 }
+
 .card_text {
 	margin-top:
 	background-color: #fff;
@@ -202,12 +201,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row;
-	
 }
 
 .foot_back{
 	text-decoration: none;
 }
+
 .foot_back:hover {
 	text-decoration: underline;
 	color: #6f42c1;
