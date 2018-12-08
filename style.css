@@ -1,6 +1,7 @@
 body {
 	background-image: url("img/фон-для-сайта.jpg");
 	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
 }
 
@@ -123,6 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .grid_one img {
 	width: 100%;
 }
+
 .card_one_all {
 	background-color: #fff;
 	border-radius: 5px; 
@@ -187,7 +189,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 
 .card_text {
-	margin-top:
 	background-color: #fff;
 }
 
@@ -201,6 +202,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 .foot_back{
