@@ -66,29 +66,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 
 .container_one {
-	text-align: center;
-	margin-bottom: 144px;
-	
+	text-align: center; 
 }
 
 .section_one {
 	
 	font-size: 40px;
-	margin-top: 100px;
+	margin-top: 7%;
 }
 
 .flex_two {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 8px;
 }
 
 .section_two {
-	width: 600px;
-	height: 90px;
+	display: block;
 	margin: 0;
 	font-size: 21px;
 	text-align: center;
 	color: #6c757d;
+	overflow: auto;
+	width: 600px;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .btn_o {
@@ -109,6 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .btn_one {
 	background-color: #007bff;
+	margin-top: 16px;
 }
 
 .btn_two {
@@ -117,10 +120,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .card_all {
 	display: grid;
-	 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	 	grid-gap: 20px;
-	 	justify-items: center;
-	 	padding: 0 20% 0 20%;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 20px;
+	justify-items: center;
+	padding: 7% 0 7% 0;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 .grid_one img {
@@ -201,7 +206,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 
 .foot_one {
-	margin-top: 90px;
 	color: #6c757d;
 	font-size: 18px;
 }
