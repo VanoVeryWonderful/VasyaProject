@@ -1,0 +1,456 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 1rem;
+	text-align: left;
+	line-height: 1.5;
+	color: #212529;
+	font-weight: 400;
+	padding: 0;
+}
+
+select:focus {
+	box-shadow: 0 0 0 3px #badafb;
+
+}
+
+input:focus {
+	box-shadow: 0 0 0 3px #badafb;
+}
+
+input {
+	padding: 2px 12px 2px 12px;
+}
+
+h4 {
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+.container {
+	
+	max-width: 960px;
+	margin: 0 auto;	
+}
+
+
+.pad {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.img_one {
+	width: 72px;
+	height: 72px;
+}
+
+.img_flex {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+
+.headline {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.head_one {
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.text_flex {
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	width: 900px;
+	display: block;
+	text-align: center;
+	font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.form_all {
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	width: 100%;
+	padding: 0;
+
+
+}
+
+.margin {
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.margin_a {
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+
+.font {
+	color: #6c757d;
+}
+
+.headline_h {
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.form_one {
+	display: block;
+	width: 63.4375%; /* я считал по формуле: цель(ширина в рх) / размер родителя (ширина в рх) * 100*/
+	padding: 0 15px 0 15px;
+}
+
+.form_two {
+	display: block;
+	width: 35.5%;
+	padding: 0 15px 0 15px;
+}
+
+.last_first_box {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.two_in {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.a_box {
+	display: block;
+	width: 36px;
+	height: 36px;
+	background-color: #e9ecef;
+	border: 1px solid #ced4da;
+	margin-right: -1px;
+	border-radius: 5px 0 0 5px;
+}
+
+.a_position {
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.name {
+	display: block;
+	width: 46.96223316%;
+
+}
+
+.inp_all {
+	display: block;
+	width: 100%;
+	border: 1px solid #ced4da;
+	border-radius: 5px;
+	height: 36px;
+}
+
+.border_none {
+	border-radius: 0 5px 5px 0;
+}
+
+.mar {
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+.lab{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 8px;
+}
+
+.three_in {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+}
+
+.mini_div_size_one{
+	display: block;
+	width:38.752052545156% ; 
+}
+
+.mini_div_size_two{
+	display: block;
+	width:30.11165845648604% ;
+}
+
+.mini_div_size_three{
+	display: block;
+	width: 21.3431855500821%;
+}
+
+.sp_circle {
+	display: block;
+	width: 32px;
+	height: 28px;
+	background-color: #6c757d;
+	text-align: center;
+	border-radius: 14px;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 3px;
+
+}
+
+.d_flex {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.border_content {
+	border: 1px solid #ced4da;
+	border-radius: 5px;
+	background-color: #fff; 
+	margin-bottom: -1px;
+}
+
+.li_a_border {
+	border-radius: 5px 5px 0 0;
+}
+.li_b_border {
+	border-radius: 0;
+}	
+.li_c_border{
+	border-radius: 0 0 5px 5px;
+}
+
+.green_text {
+	color: #28a745;
+}
+
+.padd_one {
+	padding: 12px 20px 12px 20px;
+}
+
+
+.btn_redeem {
+	border: 1px solid #6c757d; 
+	height: 38px;
+	border-radius: 0 5px 5px 0;
+	margin-left: -1px;
+	cursor: pointer;
+	background-color: #6c757d;
+	color: #fff;
+	padding-right: 12px;
+	padding-left: 12px;
+
+}
+
+
+
+.bord {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #ced4da;
+	padding: 8px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 15px;
+
+}
+
+.promo_h {
+	height: 38px;
+	padding: 0;
+	width: 100%;
+	border: 1px solid #ced4da;
+	padding: 3px;
+	border-radius: 5px 0 0 5px;
+	padding-left: 12px;
+
+
+}
+
+
+
+
+.label_checkbox {
+	display: block;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 24px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+
+.check_label::before {
+	content: "";
+	display:block;
+	background-color: #dee2e6;
+	width: 16px;
+	height: 16px;
+	border-radius: 5px;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	transition: 0.2s;
+	border: 1px solid #fff;
+} 
+
+input[type="checkbox"]:checked + label::before {
+	background-color: #007bff;
+	background-image: url(img/checked.png);
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 0 0 3px #badafb;
+	border: 1px solid #fff;
+}
+
+.card_block {
+	display: block;
+	margin: 0;
+}
+
+.mini {
+	font-size: 15px;
+	color: #6c757d;
+}
+
+.last_box {
+	margin-top: 16px;
+	display: flex;
+	justify-content: flex-start; 
+}
+
+.last_name {
+	display: block;
+	width: 21%;
+	margin-right: 30px;
+}
+
+
+input[type="radio"] {
+	display: none;
+}
+
+.check_label_circle::before {
+	content: "";
+	display:block;
+	background-color: #dee2e6;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	transition: 0.2s;
+	border: 1px solid #fff;
+} 
+
+
+input[type="radio"]:checked + label::before {
+	background-color: #007bff;
+	background-image: url(img/checked.png);
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 0 0 3px #badafb;
+	border: 1px solid #fff;
+}
+
+
+.line {
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+
+
+@media screen and (max-width: 800px){
+	.form_all {
+		display: flex;
+		flex-flow: wrap;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.form_one, .form_two {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+}
+
+.last_btn {
+	display: block;
+	height: 48px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	font-size: 1.25rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.last_btn:hover {
+	background-color: #bcffce;
+	color: #666d68;
+	border: 1px solid #bcffce;
+}
+
+.btn_redeem:hover {
+	background-color: #bcffce;
+	color: #666d68;
+	border: 1px solid #bcffce;
+}
+
+.foot {
+	display: block;
+	text-align: center;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	padding-top: 48px;
+}
+
+.last_text {
+	display: block;
+	color: #6c757d;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.none {
+	text-decoration: none;
+}
+
+.none:hover {
+	text-decoration: underline;
+	color: #6f42c1;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru-En">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style_two.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Checkout</title>
+</head>
+<body>
+	<div class="container">
+		<div class="pad">
+			<div class="img_flex">
+			  <img src="img/bootstrap-solid.svg" class="img_one">
+		    </div>
+			<h2 class="headline">Checkout form</h2>
+			<div class="text_flex">
+				<p class="text">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+			</div>
+		</div>
+
+		
+
+		<form action="" class="form_all">
+			<div class="form_one">
+				<h4 class="margin">Billing address</h4>
+				<div class="last_first_box">
+					<div class="first name">
+						<label for="" class="lab">First name</label>
+						<input type="text" class="inp_all">
+					</div>
+					<div class="last name">
+						<label for="" class="lab">Last name</label>
+						<input type="text" class="inp_all">
+					</div>
+				</div>
+				<div class="box_inp">
+
+					<label for="" class="mar">Username</label>
+					<div class="two_in">
+					  <div class="a_box"><p class="a_position">@</p></div>
+					  <input type="text" class="inp_all border_none">
+					</div> 
+				</div>
+				<div class="box_inp">
+					<label for="" class="mar">Email<span>(Optional)</span></label>
+					<input type="text" class="inp_all">
+				</div>
+				<div class="box_inp">
+					<label for="" class="mar">Address</label>
+					<input type="text" class="inp_all">
+				</div>
+				<div class="box_inp">
+					<label for="" class="mar">Address 2<span>(Optional)</span></label>
+					<input type="text" class="inp_all">
+				</div>
+				<div class="three_in">
+					<div class="mini_div_size_one">
+						<label for="">Country</label>
+						<select class="inp_all">
+						  <option value>Choose...</option>
+						  <option>USA</option>
+						  <option>Russia</option>
+						  <option>Belarus</option>
+						  <option>UK</option>
+
+						</select>
+					</div>
+					<div class="mini_div_size_two">
+						<label for="">State</label>
+						<select class="inp_all">
+						   <option value>Choose...</option>
+						   <option>California</option>
+						   <option>Alaska</option>
+						   <option>Arizona</option>
+						   <option>Georgia</option>
+
+						</select>
+					</div>
+					<div class="mini_div_size_three">
+						<label for="">Zip</label>
+						<input type="text" name="" class="inp_all">
+					</div>
+				</div>
+				<hr class="line">
+				<div class="label_checkbox">
+					   <input type="checkbox" id="some_address">
+					   <label class="check_label" for="some_address">Shipping address is the same as my billing address</label>
+				</div>
+				<div class="label_checkbox">
+					   <input type="checkbox" id="save">
+					   <label class="check_label" for="save">Save this information for next time</label>
+
+				</div>
+				<hr class="line">
+				<h4 class="head_one">Payment</h4>
+				<div class="label_checkbox">
+					   <input type="checkbox" id="cred" checked required>
+					   <label class="check_label_circle" for="cred">Credit card</label>
+				</div>
+				<div class="label_checkbox">
+					   <input type="checkbox" id="deb"  required>
+					   <label class="check_label_circle" for="deb">Debit card</label>
+
+				</div>
+				<div class="label_checkbox">
+					   <input type="checkbox" id="pay" required>
+					   <label class="check_label_circle" for="pay">PayPal</label>
+
+				</div>
+				<div class="last_first_box">
+					<div class="first name">
+						<label for="" class="lab">Name on card</label>
+						<input type="text" class="inp_all">
+						<span class="mini">Full name as displayed on card</span>
+					</div>
+					<div class="last name">
+						<label for="" class="lab">Credit card number</label>
+						<input type="text" class="inp_all">
+					</div>
+				</div>
+				<div class="last_first_box last_box">
+					<div class="first name last_name">
+						<label for="" class="lab">Expiration</label>
+						<input type="text" class="inp_all">
+					</div>
+					<div class="last name last_name">
+						<label for="" class="lab">CVV</label>
+						<input type="text" class="inp_all">
+					</div>
+				</div>
+				<hr class="line">
+				<button type="submit" class="last_btn">Continue to checkout</button>
+
+			</div>
+			
+			
+
+			<div class="form_two">
+				<div class="y_c">
+					 <h4 class="d_flex margin_a ">
+						<span class="font">Your cart</span>
+						<span class="sp_circle">3</span>
+					 </h4>
+					 <div class="cost">
+					  <ul class="padd">
+					   <li class="d_flex border_content padd_one li_a_border">
+						 <div>
+							<h6 class="headline_h">Product name</h6>
+							<p class="font_s">Brief description</p>
+						 </div>
+						 <span>$12</span>
+					   </li>
+					   <li class="d_flex border_content padd_one li_b_border">
+						 <div>
+							<h6 class="headline_h">Second product</h6>
+							<p class="font_s">Brief description</p>
+						 </div>
+						 <span>$8</span>
+					   </li>
+					   <li class="d_flex border_content padd_one li_b_border">
+						 <div>
+							<h6 class="headline_h">Third item</h6>
+							<p class="font_s">Brief description</p>
+						 </div>
+						 <span>$5</span>
+					   </li>
+					   <li class="d_flex border_content padd_one green_text li_b_border">
+						 <div>
+							<h6 class="headline_h">Promo code</h6>
+							<p>EXAMPLECODE</p>
+						 </div>
+						 <span>-$5</span>
+					  </li>
+					  <li class="d_flex border_content padd_one li_c_border">
+						 <div>
+							<h6 class="headline_h">Total (USD)</h6>
+						 </div>
+						 <span>$20</span>
+					  </li>
+				    </ul>
+				   </div>
+				   <div class="bord">
+						<input type="text" class="promo_h inp_all" placeholder="Promo code">
+						<div class="div_btn">
+							<button class="btn_redeem">Redeem</button>
+						</div>
+				  </div>
+			    </div>
+			</div>
+		</form>
+		<footer class="foot">
+			<p>© 2017-2018 Company Name</p>
+			<ul class="last_text">
+				<li class="inline"><a href="" class="none">Privacy</a></li>
+				<li class="inline"><a href="" class="none">Terms</a></li>
+				<li class="inline"><a href="" class="none">Support</a></li>
+			</ul>
+			
+		</footer>
+	</div>
+
+</body>
+</html>
