@@ -1,0 +1,62 @@
+.img_one {
+	width: 72px;
+	height: 72px;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.fs {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+label {
+	display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.btn_last {
+	height: 48px;
+}
+
+
+.sp_circle {
+	display: block;
+	width: 32px;
+	height: 28px;
+	background-color: #6c757d;
+	text-align: center;
+	border-radius: 14px;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 3px;
+
+}
+
+.list-group-items {
+	border: 1px solid #ced4da;
+	margin-bottom: -1px;
+
+}
+.last{
+	border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.first {   /*почему-то не работает list-group-items:first-child*/
+	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn_two {
+	border-top-left-radius: 0; 
+	border-bottom-left-radius: 0;
+	background-color: #6c757d;
+	color: #fff;
+}
+
+.border_right_non {
+	border-right: 0;
+}
