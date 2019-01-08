@@ -1,0 +1,56 @@
+.font {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.btn_h {
+	height: 38px;
+}
+
+.border {
+	border-bottom: 1px solid #dee2e6;
+	box-shadow: 0 1px 4px #dee2e6;  
+}
+
+.header {
+	max-width: 700px;
+	margin: 0 auto;
+
+}
+
+h1 {
+	font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.text_header {
+	font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.container {
+	max-width: 960px;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.h1_size {
+	font-size: 2.5rem;
+}
+img {
+	height: 24px;
+	width: 24px;
+}
+
+.size_t  {
+	font-size: 13px;
+}
+
+@media (max-width: 1111px){
+	.flex-md-row{
+		display: flex;
+		flex-flow: column;
+	}
+}
